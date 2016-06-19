@@ -4,19 +4,17 @@
         <link rel="stylesheet" type="text/css" href="style.css">
         <meta charset="UTF-8">
         <title>Local(host) on Laurel</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
     </head>
     <body>
 	
         <h2 class=header>Welcome to the Localhost on Laurel</h2>
-        <div ng-app="">
+        <div ng-app="ifyApp" ng-controller="ifyCtrl">
             <p>I can add "ify" to the end of anyword</p>
             <p>Word: <input type="text" ng-model="word"></p>
             <p>Here is your new word: {{word + "-ify"}} </p>
         </div>
     
     </body>
-    <script src="./offline_files/angular.min.js"></script>
-    <!-- on deploy use this script instead
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
-    -->
+    <script src="script.js"></script>
 </html>
