@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /*//Lets require/import the HTTP module
 var http = require('http');
 
@@ -34,5 +33,3 @@ var express = require('express'),
 app.use(express.static(__dirname + '/public'));
 
 app.listen(8080);
-=======
->>>>>>> e149076fa7140758cbb867257540377732fd6e71
