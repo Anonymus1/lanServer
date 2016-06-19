@@ -1,0 +1,2 @@
+node serverStart.js
+pause
